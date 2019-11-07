@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  	color: $mainColor;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  	color: $mainColor;
+}
+:-ms-input-placeholder { /* IE 10+ */
+ 	color: $mainColor;
+}
+:-moz-placeholder { /* Firefox 18- */
+  	color: $mainColor;
+}
